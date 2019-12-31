@@ -28,7 +28,6 @@ dependencies:
   google_fonts:
   uuid:
   synchronized:
-    
   no_brainer:
     path: ../no_brainer
   #soundpool:

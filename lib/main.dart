@@ -68,6 +68,8 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
 class MrApp extends StatefulWidget {
   @override
   _MrAppState createState() => _MrAppState();
@@ -90,12 +92,13 @@ TextInputClient p;
     //navigation = Navigation(() => setState((){}), routes);
   }
   
-  Widget menubutton({String name, Function onPress, double width}) {
+  Widget menubutton({String name, Function onPress}) { //, double width
     return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Container(
-          width: width,
-          height: 50.0,
+      padding: const EdgeInsets.symmetric(vertical: 8.0),
+      child:SizedBox.fromSize(
+        size: stateManager.sc.menuButton(),
+          // width: width,
+          // height: 50.0,
           child: MaterialButton(
             color: Colors.white.withOpacity(0.1),
             shape: RoundedRectangleBorder(
@@ -105,7 +108,7 @@ TextInputClient p;
               name,
               style: TextStyle(
                   color: Colors.white,
-                  fontSize: 20.0,
+                  fontSize: stateManager.sc.getMenuFontSize(),
                   fontStyle: FontStyle.italic),
             ),
           )),
@@ -114,8 +117,12 @@ TextInputClient p;
 
   @override
   Widget build(BuildContext context) {
-    double w = MediaQuery.of(context).size.width;
-    double h = MediaQuery.of(context).size.height;
+  //  double w = MediaQuery.of(context).size.width;
+  //  double h = MediaQuery.of(context).size.height;
+    stateManager.setScale(MediaQuery.of(context).size);
+    //Rect menuBar =stateManager.sc.getMenuRect();
+   // Rect mainArea =stateManager.sc.getMainAreaRect();
+    
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
@@ -129,35 +136,36 @@ TextInputClient p;
         ),
         child: Stack(
           children: <Widget>[
-           Positioned(
-              top: 0.0,
-              height: h,//-50.0,
-              width: w*0.85,
-              left: 0.0,
-              child: SizedBox(width: w*0.85, height: h , child: stateManager.getScreen()),   // navigation.getCurrentScreen()(),),
+  
+            Positioned.fromRect(
+              rect: stateManager.sc.mainArea(),
+             // child: SizedBox(width: w*0.85, height: h , 
+               child: 
+              stateManager.getScreen()
+             // ),   // navigation.getCurrentScreen()(),),
             ),
           CustomAnimatedList(
-          introDirection: DIREC.BTT,
-          size: Size(w,h),
+          introDirection: stateManager.sc.mobile?DIREC.LTR: DIREC.BTT,
+          //size: Size(w,h),
+          lrtb: stateManager.sc.menu(),
           widgetList: <Widget>[
-            menubutton(name: "Home", width: .2 * w,
+            menubutton(name: "Home", //width: .2 * w,
             onPress: () => stateManager.changeScreen("/")
             ),
-            menubutton(name: "Essays", width: .2 * w,
+            menubutton(name: "Essays", //width: .2 * w,
             onPress: () => stateManager.changeScreen("/essays")
             ),
-            menubutton(name: "Books", width: .2 * w,
+            menubutton(name: "Books", //width: .2 * w,
             onPress: () => stateManager.changeScreen("/books")),
             menubutton(
                 name: "Quotes",
-                width: .2 * w,
+               // width: .2 * w,
                 onPress: () => stateManager.changeScreen("/music")),
-    
-            menubutton(name: "Sites", width: .2 * w,
+            menubutton(name: "Sites", //width: .2 * w,
             onPress: () => stateManager.changeScreen("/sites")
             ),
           ],
-          lrtb: LRTBsize(0.85, 1.0, 0.05, 0.9),
+          
   
         ),
           ],
@@ -170,7 +178,13 @@ TextInputClient p;
 
 
 
-
+        //  Positioned(
+          //     top: 0.0,
+          //     height: h,//-50.0,
+          //     width: w*0.85,
+          //     left: 0.0,
+          //     child: SizedBox(width: w*0.85, height: h , child: stateManager.getScreen()),   // navigation.getCurrentScreen()(),),
+          //   ),
         // ),
           // )
      //   menubutton(name: "Questions", width: .2 * w),

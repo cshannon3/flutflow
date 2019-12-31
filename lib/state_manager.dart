@@ -2,7 +2,9 @@
 import 'package:firebase/firestore.dart';
 import 'package:flutflow/audio/audio_example.dart';
 import 'package:flutflow/data_controller.dart';
+import 'package:flutflow/pages/bubbles.dart';
 import 'package:flutflow/pages/pages.dart';
+import 'package:flutflow/scale_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:no_brainer/makers/model_maker.dart';
 import 'package:no_brainer/screens/paint_demo.dart';
@@ -13,6 +15,7 @@ class StateManager extends ChangeNotifier {
   List<CustomModel> bookList = List();
   List<CustomModel> quotesList = List();
   String currentRoute = "/";
+  ScaleController sc;
   Map<String, dynamic> routes = {
     "/": (StateManager m) => AnimTest(m),
     "/fourier": (StateManager m) => Fourier2(),
@@ -22,9 +25,13 @@ class StateManager extends ChangeNotifier {
     "/quotes": (StateManager m) => Quotes(m),
     "/books":(StateManager m) => Books(m),
     "/essays": (StateManager m) => Essays(),
-    "/sites":(StateManager m) =>  Sites(),
+    "/sites":(StateManager m) =>  Bubbles(m),
     //"/people":(StateManager m) => Container()
   };
+
+  setScale(Size screenSize){
+    sc=ScaleController(screenSize);
+  }
   Widget getScreen() {
     return routes[currentRoute](this);
   }
@@ -44,6 +51,11 @@ class StateManager extends ChangeNotifier {
   initialize(/*Firestore _db,*/) async {
     bookList = await dataController.getDataList("book", "assets/book.json");
     quotesList = await dataController.getDataList("quote", "assets/quotes.json");
+
+  }
+}
+
+
     //db=_db;
     // dataMap.forEach((key,infoMap){
     //   print("\n\n$key\n\n");
@@ -62,5 +74,3 @@ class StateManager extends ChangeNotifier {
     // quotesList=dataMap["quotes"]["models"];
     // bookList=dataMap["books"]["models"];
    //print(quotesList.last.vars["author"]);
-  }
-}
