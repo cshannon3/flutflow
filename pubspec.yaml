@@ -1,0 +1,223 @@
+name: flutflow
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  # webview_flutter:
+  # flutter_webview_plugin: ^0.3.10
+  provider: 
+  google_fonts:
+  uuid:
+  synchronized:
+    
+  no_brainer:
+    path: ../no_brainer
+  #soundpool:
+  #flame: ^0.17.1
+  firebase: any
+  firebase_auth:
+  # video_player: ^0.10.4
+  # chewie:
+
+  # video_player_web:
+  #   git:
+  #     url: git://github.com/flutter/plugins.git
+  #     path: packages/video_player/video_player_web
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/map.png
+    - assets/coverphoto.jpg
+    - assets/coverphoto2.jpg
+    - assets/images/clef.png
+    - assets/images/sharp.png
+    - assets/images/bass.png
+    - assets/images/flat.png
+    - assets/book.json
+    - assets/quotes.json
+    - assets/loading.gif
+    - assets/bookimages/fill.jpg
+    - assets/bookimages/loonshots.png
+    - assets/bookimages/whatschoolscouldbe.jpg
+    - assets/bookimages/onintelligence.jpg
+    - assets/bookimages/fooledbyrandomness.jpg
+    - assets/bookimages/gettingtoyes.jpg
+    - assets/bookimages/meditations.jpg
+    - assets/bookimages/thinkingfastandslow.jpg
+    - assets/bookimages/highoutput.jpg
+    - assets/bookimages/influence.jpg
+    - assets/bookimages/worldof3zeros.jpg
+    - assets/bookimages/mindwise.jpg
+    - assets/bookimages/oneworldschoolhouse.jpg
+    - assets/bookimages/onwritingwell.jpg
+    - assets/bookimages/elementsofstyle.jpg
+    - assets/bookimages/codersat.jpg
+    - assets/bookimages/thinkinginsystems.jpg
+    - assets/bookimages/codecomplete.jpg
+    - assets/bookimages/brainchanges.jpg
+    - assets/bookimages/lessonsfromhist.jpg
+    - assets/bookimages/principlesofpsych.jpg
+    - assets/bookimages/origin.jpg
+    - assets/bookimages/structofsci.jpg
+    - assets/bookimages/dreammachine.jpg
+    - assets/bookimages/cons.jpg
+    - assets/bookimages/howtosurvive.jpg
+    - assets/bookimages/onedu.jpg
+    - assets/bookimages/howfail.jpg
+    - assets/bookimages/humanmot.jpg
+    - assets/bookimages/hirehead.jpg
+    - assets/bookimages/storycraft.jpg
+    - assets/bookimages/mindstorms.jpg
+    - assets/bookimages/upright.jpg
+    - assets/bookimages/incognito.jpg
+    - assets/bookimages/roadtoserfdom.jpg
+    - assets/bookimages/something.jpg
+    - assets/bookimages/peak.jpg
+    - assets/bookimages/startupnation.jpg
+    - assets/bookimages/paiget.jpg
+    - assets/bookimages/outofmao.jpg
+    - assets/bookimages/ageofa.jpg
+    - assets/bookimages/societyofmind.jpg
+    - assets/bookimages/createmind.jpg
+    - assets/bookimages/innertennis.jpg
+    - assets/bookimages/surely.jpg
+    - assets/bookimages/pooreconomics.jpg
+    - assets/bookimages/theoriesofchild.jpg
+    - assets/bookimages/metaphy.jpg
+    - assets/bookimages/worldsinhidden.jpg
+    - assets/bookimages/howmusic.jpg
+    - assets/bookimages/telltalebrain.jpg
+    - assets/bookimages/amindat.jpg
+    - assets/bookimages/social.jpg
+    - assets/bookimages/thebrain.jpg
+    - assets/bookimages/howthemindworks.jpg
+    - assets/bookimages/platform.jpg
+    - assets/bookimages/thanksforfeedback.jpg
+    - assets/bookimages/gettingthings.jpg
+    - assets/bookimages/dictatorshandbook.jpg
+    - assets/bookimages/whywesleep.jpg
+    - assets/bookimages/moonwalkingwitheinstein.jpg
+    - assets/bookimages/wheregoodideas.jpg
+    - assets/bookimages/sapiens.jpg
+    - assets/bookimages/howwelearn.jpg
+    - assets/bookimages/21lessons.jpg
+    - assets/bookimages/neuroplas.jpg
+    - assets/bookimages/finnishlessons.jpg
+    - assets/bookimages/historyofev.jpg
+    - assets/bookimages/driven.jpg
+    - assets/bookimages/geb.jpg
+    - assets/bookimages/centercant.jpg
+    - assets/bookimages/dozombiesdream.jpg
+    - assets/bookimages/launch.jpg
+    - assets/bookimages/lifelong.jpg
+    - assets/bookimages/entangled.jpg
+    - assets/bookimages/fifthdis.png
+    - assets/bookimages/howtolie.jpg
+    - assets/bookimages/trouble.jpg
+    - assets/bookimages/sync.jpg
+    - assets/bookimages/complex.jpg
+    - assets/bookimages/linked.jpg
+    - assets/bookimages/info.jpg
+    - assets/bookimages/infinity.jpg
+    - assets/bookimages/selfish.jpg
+    - assets/bookimages/behave.jpg
+    - assets/bookimages/gene.jpg
+    - assets/audio/piano_A.mp3
+    - assets/audio/piano_A_sharp.mp3
+    - assets/audio/piano_B.mp3
+    - assets/audio/piano_middle_C.mp3
+    - assets/audio/piano_C_sharp.mp3
+    - assets/audio/piano_D.mp3
+    - assets/audio/piano_D_sharp.mp3
+    - assets/audio/piano_E.mp3
+    - assets/audio/piano_F.mp3
+    - assets/audio/piano_G.mp3
+    - assets/audio/piano_G_sharp.mp3
+    - assets/audio/piano_48.mp3
+    - assets/audio/piano_49.mp3
+    - assets/audio/piano_50.mp3
+    - assets/audio/piano_51.mp3
+    - assets/audio/piano_52.mp3
+    - assets/audio/piano_53.mp3
+    - assets/audio/piano_54.mp3
+    - assets/audio/piano_55.mp3
+    - assets/audio/piano_56.mp3
+    - assets/audio/piano_57.mp3
+    - assets/audio/piano_58.mp3
+    - assets/audio/piano_59.mp3
+    - assets/audio/piano_60.mp3
+    - assets/audio/piano_61.mp3
+    - assets/audio/piano_62.mp3
+    - assets/audio/piano_63.mp3
+    - assets/audio/piano_64.mp3
+    - assets/audio/piano_65.mp3
+    - assets/audio/piano_66.mp3
+    - assets/audio/piano_67.mp3
+    - assets/audio/piano_68.mp3
+    - assets/audio/piano_69.mp3
+    - assets/audio/piano_70.mp3
+    - assets/audio/piano_71.mp3
+    - assets/audio/piano_72.mp3
+    - assets/audio/Bing-sound.mp3
+   #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

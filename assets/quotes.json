@@ -1,0 +1,372 @@
+[
+    {
+        "id":0,
+		"text":[
+            "There is a very simple question that hardly anyone seems",
+            " to have asked. @@bold@@Of the things we teachers do,",
+            " which help learning and which prevent it?@@/bold@@ [...]",
+            "Once we understand that some of the things we teachers do may be helpful,",
+            " some merely useless and some downright harmful, we can begin to ask which is which. ",
+            "@@bold@@But only teachers can ask such questions and use their daily work with students to test their answers.",
+            " All other kinds of research into ways of improving teaching lead mostly to expensive fads and nonsense. @@/bold@@",
+            "With the possible execution of economics, education is probably the largest field of human activity ",
+            "in which there are almost no connection between theory and experience, ",
+            "in which people rarely test theories to see if they ",
+        "work and reject or change them if they don't"],
+        "categories":[],
+        "author" :"John Holt",
+        "source" :"How Children Fail"
+    },
+    {
+        "id":1,
+        "text":["Computer science inverts the normal.",
+         "In normal science, you're given a world,", 
+         "and your job is to find out the rules. ",
+         "In computer science, @@bold@@you give the computer the rules, ",
+         "and it creates the world.@@/bold@@"],
+        "categories":[],
+        "author" :"Alan Kay",
+        "source" :""
+    },
+    {
+        "id":2,
+        "text":["It is 100 years since John Dewey began arguing for the kind of change ",
+        "that would move schools away from authoritarian classrooms",
+         "with abstract notions to environments in which @@bold@@learning is achieved through experimentation,",
+         " practice and exposure to the real world.@@/bold@@",
+           "I, for one, believe the @@bold@@computer makes Dewey’s vision far more accessible@@/bold@@ epistemologically.",
+            "It also makes it politically more likely to happen, ",
+           "for where Dewey had nothing but philosophical arguments,",
+             "the present day movement for change has an army of agents.",
+             "The ultimate pressure for the change will be child power."],
+        "categories":[],
+        "author" :"Seymour Papert",
+        "source" :""
+    },
+    {
+        "id":3,
+        "text":["Talking about the problems of the world",
+        " without talking about solutions is the way to paralysis ",
+         "rather than progress"],
+        "categories":[],
+        "author" :"Abhijit V. Banerjee, Esther Duflo",
+        "source" :"Poor Economics"
+    },
+    {
+        "id":4,
+		"text":[
+            "In engineering the hard part isn't solving the problems, ",
+           " but deciding what problems to solve"
+        ],
+        "categories":[],
+        "author" :"Paul Graham",
+        "source" :""
+    },
+    {
+        "id":5,
+		"text":["The greatest wisdom not applied to action and behavior is meaningless data"],
+        "categories":[],
+        "author" :"Peter Drucker",
+        "source" :"Effective Executive"
+    },
+    {
+        "id":6,
+        "text":["The goal of education is not to increase the amount of knowledge",
+        " but to create the possibilities for a child to invent and discover,",
+        " to create men who are capable of doing new things."],
+        "categories":[],
+        "author" :"Jean Paiget",
+        "source" :""
+    },
+    {
+        "id":7,
+        "text":["If we don't change direction soon, we'll end up where we're going."],
+        "categories":[],
+        "author" :"Irwin Corey",
+        "source" :""
+    },
+
+    {
+        "id":8,
+        "text":["   @@bold@@Education consists either in the ability to use one's powers in a social direction, or else in ability to share in the experiences of others@@/bold@@",
+            " and thus widen the individual consiousness to that of the race.\n",
+            "   The kind of person who should emerge from a truly liberalized education ",
+            "would be prepared to learn thruoghout his life, ",
+            "capable of acting in his natural and social world effectively,",
+            " and with a sense of obligation to human society , past present and future.\n",
+            "   There was isolation of one set of  studies from one set of studies from another",
+            " and a lack of unified connections of lower, middle, and higher parts of the system. \n",
+            "   To reach the desired end, the school has been converted into the most dehumanizing institution",
+            " that I have ever laid eyes upon, @@bold@@each child being treated as if he possessed a memory",
+            " and the facility of speech, but no individuality, no sensibilities, no soul@@/bold@@"],
+        "categories":[],
+        "author" :"Joseph Mayer Rice",
+        "source" :""
+    },
+    {
+        "id":9,
+        "text":["It is our knowledge — the things we are sure of — that makes the world go wrong and keeps us from seeing and learning."],
+        "categories":[],
+        "author" :"Lincoln Steffens",
+        "source" :"https://fs.blog/2013/06/the-antilibrary/"
+    },
+    {
+        "id":10,
+        "text":["The function of education is to teach one to @@bold@@think intensively@@/bold@@",
+        "and to @@bold@@think critically@@/bold@@. Intelligence plus character – that is the goal of true education."],
+        "categories":[],
+        "author" :"Martin Luther King, Jr.",
+        "source" :""
+    },
+    {
+        "id":11,
+        "text":["Our school crisis is a reflection of this greater social crisis. We seem to have lost our identity.",
+        " @@bold@@Children and old people are penned up and locked away from the business of the world to a degree without precedent",
+        " - nobody talks to them anymore and without children and old people mixing in daily life",
+        " a community has no future and no past, only a continuous present.@@/bold@@ In fact, the name \"community\" hardly ",
+        "applies to the way we interact with each other.@@bold@@ We live in networks, not communities, and everyone I know is lonely@@/bold@@",
+        " because of that. In some strange way school is a major actor in this tragedy just as it is a major actor in the widening guilt",
+        " among social classes. Using school as a sorting mechanism @@bold@@we appear to be on the way to creating a caste system@@/bold@@, complete with ",
+        "untouchables who wander through subway trains begging and sleep on the streets."],
+        "categories":[],
+        "author" :"John Taylor Gatto",
+        "source" :"https://www.naturalchild.org/articles/guest/john_gatto.html"
+    },
+    {
+        "id":12,
+        "text":["Learning isn't a way of reaching one's potential but rather a way of developing it"],
+        "categories":[],
+        "author" :"Anders Ericsson",
+        "source" :"Peak"
+    },
+    {
+        "id":13,
+        "text":["We always hope for an easy fix[...] But few things in life work this way. Instead, success requires making a hundred small steps go right"],
+        "categories":[],
+        "author" :"Atul Gawande",
+        "source" :""
+    },
+    {
+        "id":14,
+        "text":["Complexity is your enemy, any fool can make something more complicated. It is hard to keep something simple"],
+        "categories":[],
+        "author" :"Richard Branson",
+        "source" :""
+    },
+    {
+        "id":15,
+        "text":["Tell me and I forget, teach me and I may remember, involve me and I learn"],
+        "categories":[],
+        "author" :"Ben Franklin",
+        "source" :""
+    },
+    {
+        "id":16,
+        "text":["What I cannot create, I do not understand"],
+        "categories":[],
+        "author" :"Richard Feynman",
+        "source" :""
+    },
+    {
+        "id":17,
+        "text":["If you can't explain it simply, you don't understand it well enough"],
+        "categories":[],
+        "author" :"Albert Einstein",
+        "source" :""
+    },
+    {
+        "id":18,
+        "text":["The first principle is that you must not fool yourself, and you are the easiest person to fool"],
+        "categories":[],
+        "author" :"Richard Feynman",
+        "source" :""
+    },
+    {
+        "id":19,
+        "text":["People are only mean when they are threatened, and that is what our culture does. That's what our economy does"],
+        "categories":[],
+        "author" :"Mitch Albom",
+        "source" :""
+    },
+    {
+        "id":20,
+        "text":["Don't be afraid to be confused. Try to stay permanently confused.",
+        "Anything is possible. Stay open, forever, so open it hurts and then open up some more until the day you die",
+        ", world without end, amen"],
+        "categories":[],
+        "author" :"Geurge Saunders",
+        "source" :""
+    },
+    {
+        "id":21,
+        "text":["To become an extremist, hang around with people you agree with"],
+        "categories":[],
+        "author" :"Cass Sunstein",
+        "source" :""
+    },
+    {
+        "id":22,
+        "text":["Greatness and nearsightedness are incompatible. Meaningful achievement depends on lifting one's sights and pushing towards the horizon"],
+        "categories":[],
+        "author" :"Daniel Pink",
+        "source" :""
+    },
+    {
+        "id":23,
+        "text":["Better is possible. It does not take genius. It takes diligence. It takes moral clarity, it takes ingenuity.",
+        " And above all it takes a willingness to try"],
+        "categories":[],
+        "author" :"Atul Gawande",
+        "source" :""
+    },
+    {
+        "id":24,
+        "text":["Better to be roughly right than percisely wrong"],
+        "categories":[],
+        "author" :"Charlie Munger",
+        "source" :""
+    },
+    {
+        "id":25,
+        "text":["Every man must decide whether he will walk in the light of creative altruism or in the darkness of destructive selfishness."],
+        "categories":[],
+        "author" :"Martin Luther King, Jr.",
+        "source" :""
+    },
+    {
+        "id":26,
+        "text":["Happiness lies in the joy of achievement and the thrill of creative effort"],
+        "categories":[],
+        "author" :"Franklin D. Roosevelt",
+        "source" :""
+    },
+    {
+        "id":27,
+        "text":["Any Intelligent fool can make things more complex...it takes a touch of genius",
+        " and a lot of courage to go in the opposite direction"],
+        "categories":[],
+        "author" :"Albert Einstein",
+        "source" :""
+    },
+    {
+        "id":28,
+        "text":["We are what we pretend to be, so we must be careful about what we pretend to be"],
+        "categories":[],
+        "author" :"Kurt Vonnegut",
+        "source" :""
+    },
+    {
+        "id":29,
+        "text":["If failure isn't an option then neither is success"],
+        "categories":[],
+        "author" :"Seth Godin",
+        "source" :""
+    },
+    {
+        "id":30,
+        "text":["Our comforting conviction that the world makes sense rests on a secure foundation:",
+        " our almost unlimited ability to ignore or ignorance"],
+        "categories":[],
+        "author" :"Daniel Kahneman",
+        "source" :""
+    },
+    {
+        "id":31,
+        "text":["If we teach today as we taught yesterday, we rob our children of tomorrow"],
+        "categories":[],
+        "author" :"John Dewey",
+        "source" :""
+    },
+    {
+        "id":32,
+        "text":["The poor seem to be struggling from the same kinds of problems s as the rest of us, lack of information, weak beliefs and procrastination"],
+        "categories":[],
+        "author" :"Abhijit V. Banerjee, Esther Duflo",
+        "source" :"Poor Economics"
+    },
+    {
+        "id":33,
+        "text":["The only normal people are the ones you don't know very well."],
+        "categories":[],
+        "author" :"Alfred Adler",
+        "source" :""
+    },
+
+    {
+        "id":34,
+        "text":["A glorious failure is better than a petty success"],
+        "categories":[],
+        "author" :"Alfred Adler",
+        "source" :""
+    },
+    {
+        "id":35,
+        "text":["You keep kicking versions out the door, making them better. Any individual product is less important than the basic idea. If a beta turns people off, you put out a beta that turns them back on"],
+        "categories":[],
+        "author" :"Marc Andreessen",
+        "source" :"How The Internet Happened"
+    },
+    {
+        "id":36,
+        "text":["The greats weren't great because at birth they could paint, the greats we're great because they paint a lot"],
+        "categories":[],
+        "author" :"Macklemore",
+        "source" :"Ten Thousand Hours(Song)"
+    },
+    {
+        "id":37,
+        "text":["By themselves, character and integrity do not accomplish anything. But their absence faults everything else."],
+        "categories":[],
+        "author" :"Peter Drucker",
+        "source" :"Effective Executive"
+    },
+    {
+        "id":38,
+        "text":["We do not need magic to transform our world. We carry all the power we need inside ourselves already.",
+        " We have the power to imagine better"],
+        "categories":[],
+        "author" :"J.K. Rowling",
+        "source" :"Harvard Commencement Speech(https://www.youtube.com/watch?v=wHGqp8lz36c)"
+    },
+    {
+        "id":39,
+        "text":["The peculiar way in which @@italic@@expectations about what education is supposed ",
+            "to deliver@@/italic@@ distort what parents demand, what both public and private schools.",
+        " To reach the desired end, the school has been converted into the most dehumanizing institution", 
+        " and what children achieve--and @@bold@@the colossal waste that ensues@@/bold@@"],
+        "categories":[],
+        "author" :"Abhijit V. Banerjee, Esther Duflo",
+        "source" :"Poor Economics" },
+        {
+            "id":40,
+            "text":["At the societal level, the pattern of beliefs and behavior means that most",
+            " school systems are both unfair and wasteful. The children of the rich go to schools",
+        " that not only teach more and teach better, but where they are treated with compassion and helped",
+    " to reach their true potential. The poor end up in schools that make it very clear quite early on",
+" that they are not wanted unless they show some exceptional gifts, and they are in effect expected",
+" to suffer in silence until they drop out"],
+            "categories":[],
+            "author" :"Abhijit V. Banerjee, Esther Duflo",
+            "source" :"Poor Economics" 
+        },
+        {
+            "id":41,
+            "text":["A combination of unrealistic goals, unnecessarily pessimistic expectations",
+            ", and wrong incentives for teachers contributes to ensure that education systems in ",
+        "developing countries fail at their two main tasks: giving everyone a sound basic set of skills",
+     ", and identifying talent."],
+            "categories":[],
+            "author" :"Abhijit V. Banerjee, Esther Duflo",
+            "source" :"Poor Economics" 
+        },
+        {
+            "id":42,
+            "text":["Recognizing that schools have to serve the students they do have, ",
+            "rather than the ones they perhaps would like to have, may be the first",
+        " step to having a school system that gives a chance to every child"],
+            "categories":[],
+            "author" :"Abhijit V. Banerjee, Esther Duflo",
+            "source" :"Poor Economics" 
+        }
+            
+]
