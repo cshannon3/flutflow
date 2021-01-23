@@ -29,11 +29,12 @@ dependencies:
   uuid:
   synchronized:
   no_brainer:
-    path: ../no_brainer
+    path: ../nobrainer
   #soundpool:
   #flame: ^0.17.1
   firebase: any
   firebase_auth:
+
   # video_player: ^0.10.4
   # chewie:
 

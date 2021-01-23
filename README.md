@@ -1,8 +1,5 @@
-# flutflow
 
-A new Flutter project.
-
-## Getting Started
+## What it is
 
 This project is a starting point for a Flutter application.
 
